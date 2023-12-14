@@ -106,9 +106,9 @@ function draw() {
 	smooth(bass)
 
 // change - update last 3 values with mapping to the range you want at what interval steps 
-	treble= map(treble, 0, 300, 1, 30, 0.5);
-	bass = map(bass, 0, 300, -900,900, 1);
-	bass2 = map(bass, 0, 300, -20,20, 1);
+	treble= map(treble, 0, 300, 1, 30, 0.75);
+	bass = map(bass, 0, 300, -900,700, 0.75);
+	bass2 = map(bass, 0, 300, -20,15, 1);
 	mid = map(mid, 0, 300, 0, 30, 1);
 
 
